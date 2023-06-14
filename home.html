@@ -1,3 +1,4 @@
+<!--Home page -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,11 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Little Abqari Playschool</title>
   <!--header 
-        Style CSS for header-->
+       Style CSS for header-->
   <link rel="stylesheet" href="./css/hfer.css">
+    <!-- Style CSS for homepage-->
   <link rel="stylesheet" href="./css/home.css">
+  <!-- Style CSS for responsive page-->
   <link rel="stylesheet" href="./css/responsive.css">
 </head>
+
+<!-- header  -->
 <header>
   <!-- top container section -->
    <div class="top_container">
@@ -40,9 +45,8 @@
      <!-- Script JS for toggle-->
      <script src="./js/toggle.js"></script>
  </header>  <!-- header section end-->
-<body>
 
-
+ <body>
  <!-- intro section -->
   <section class="intro_section">
     <div class="intro-container container">
@@ -59,6 +63,7 @@
           They offered a dynamic classroom instruction with caring, 
           qualified teachers and fun activities for your child.
         </p>
+        <!-- Read more button connected to about page -->
         <div class="intro_btn-continer">
           <a href="about.html" class="intro_button">
             Read More
@@ -75,17 +80,18 @@
     </div> <!-- intro details box end -->
   </section><!-- intro section end -->
 
-
+<!-- video section -->
 <section class="video_section">
 <!--class for video-->
 <div class="video-container">
+  <!-- make the video display in autoplay and muted -->
   <video id="video-1" poster="img/vidlap.JPG" controls autoplay muted>
   <source src="img/vidlap.webm" type="video/webm">
   <source src="img/vidlap.mp4" type="video/mp4">
   It looks like your browser does not support <code>video</code>.
   </video>
   </div>
-</section>
+</section> <!-- video section end -->
 
 
 <!--gallery section-->
@@ -95,13 +101,16 @@
   FUN ACTIVITIES
   </h1>
 </div>
+<!--open the full-image size when the image is click-->
 <div class="full-img" id="fullImgBox">
   <img src="" id="fullImg">
+  <!--close the img if click x-->
   <span class="exit"onclick="closefullImg()">X</span>
+  <!--go to previous and next image-->
   <span id="prev" class="prev">&lt;</span>
   <span id="next" class="next">&gt;</span>
 </div>
-
+<!--images collection-->
 <div class="img-gallery">
   <img src="img/cls_1.jpg" onclick="openfullImg(this.src)">
   <img src="img/cls_2.jpg" onclick="openfullImg(this.src)">
@@ -111,7 +120,8 @@
   <img src="img/cls_7.jpg" onclick="openfullImg(this.src)">
 </div>
 
-<!-- Script JS for toggle-->
+<!-- Script JS for the full-image size functionallity 
+and for the image to go to the previous and next page if the button is click-->
 <script src="./js/homegal.js"></script>
   <!-- gallery section end -->
 
@@ -120,6 +130,7 @@
  <!-- footer section start-->
  <section class="footer_section">
   <div class="footer-container">
+
      <!-- subscribe newsletter  -->
      <div class="subscribe_container">
       <h5>
