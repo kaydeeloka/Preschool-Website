@@ -1,4 +1,5 @@
 /*css for header and footer*/
+/* general CSS */
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +22,7 @@
     margin: 0 auto;
     padding: 0 15px;
   }
-  
+  /* general CSS end */
   
   /* navbar */
   .navbar-area {
@@ -93,7 +94,7 @@
   .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
   }
-  /* nav-toggler css start */
+  /* nav-toggler end */
 
   /* footer section*/
   .footer_section {
@@ -106,14 +107,14 @@
     margin: 0;
     text-align: center;
   }
-
   .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-  }
+  } /* footer container end */
 
+  /* CSS for social media link and img*/
   .social_container {
     display: flex;
     margin-bottom: 20px;
@@ -127,8 +128,9 @@
   .social_container img {
     width: 30px;
     height: 30px;
-  }
+  } /* social media end */
 
+  /* CSS for subscribe container */
   .subscribe_container {
     padding: 20px;
     text-align: center;
@@ -139,6 +141,7 @@
     margin-bottom: 10px;
   }
 
+  /*adjust subscribe form*/
   .form_container {
     display: flex;
     justify-content: center;
@@ -154,6 +157,7 @@
     margin-right: 5px;
   }
 
+  /* adjust form button */
   .form_container button[type="submit"] {
     background-color: #652f8f;
     color: #fff;
@@ -163,7 +167,8 @@
     cursor: pointer;
   }
 
+  /* adjust form button hover*/
   .form_container button[type="submit"]:hover {
     background-color: orange;
-  }
+  } /* subscribe end */
   /* end footer section*/
