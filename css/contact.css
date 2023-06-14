@@ -1,0 +1,63 @@
+/* contact section */
+.contact_section {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    flex: 1; /* set the form on the left*/
+    padding-right: 20px; /* Adjust the spacing between the form and image */
+  }
+  
+  .contact_img-box {
+    flex: 1; /* set the form on the right */
+    flex-shrink: 0;
+  }
+  
+  .contact_img-box img {
+    max-width: 100%; /* set image size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* CSS for the input form */
+  .contact_section input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    width: 90%;
+    margin: 15px 0;
+  }
+  
+  /* CSS for the form  container*/
+  .contact_form-container {
+    margin-right: 20px; /* Adjust the spacing between the form and image */
+  }
+  
+  /* CSS for the button*/
+  .contact_form-container button {
+    border: none;
+    background-color:  rgb(173, 146, 247);
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* CSS for the contact heading*/
+  .contact_section h2 {
+    font-size: 26px;
+    color: #010103;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 35px;
+  }
+  
+  button{
+    cursor: pointer; /* change the cursor style */
+  }
+  
+  
+  /* end contact section */

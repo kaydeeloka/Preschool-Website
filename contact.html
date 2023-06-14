@@ -1,0 +1,141 @@
+<!--Contact page -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Little Abqari Preschool </title>
+      <!-- Style CSS for header-->
+      <link rel="stylesheet" href="./css/hfer.css">
+      <!-- Style CSS for every page -->
+      <link rel="stylesheet" href="./css/contact.css">
+      <!-- Style CSS for responsive page -->
+      <link rel="stylesheet" href="./css/responsive.css">
+   </head>
+
+   <body>
+  
+  <!-- header  -->
+  <header>
+  <!-- navbar area -->
+  <div class="navbar-area">
+    <!-- site-container -->
+    <div class="container">
+
+      <!-- navbar menu-->
+      <nav class="site-navbar">
+        <!-- site logo -->
+        <img class="logo" src="img/lap_logo.png"alt="">
+
+        <!-- site menu -->
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="registration.php">Register Now!</a></li>
+        </ul>
+        <!-- nav-toggler for mobile version only -->
+        <button class="nav-toggler">
+          <span></span>
+        </button>
+      </nav> <!-- navbar menu end-->
+    </div>  <!-- site-container end -->
+  </div><!-- navbar-area end -->
+  
+  <!-- Script JS for toggle-->
+  <script src="./js/toggle.js"></script>
+</header>
+<!-- header end -->
+  
+  <!-- contact section -->
+  <section class="contact_section">
+    <div class="container">
+      <!-- Contact Form -->
+      <div class="header">
+        <h2>Contact Us</h2>
+      </div>
+      <!-- link with contact database -->
+      <form action="contact.php" method="POST">
+        <div class="contact_form-container">
+          <div>
+            <!-- Form input fields -->
+            <!-- Name -->
+            <div>
+              <input type="text" name="cname" placeholder="Name" required>
+            </div>
+            <!-- Email -->
+            <div>
+              <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <!-- Phone Number -->
+            <div>
+              <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+            <!-- Message -->
+            <div>
+              <input type="text" name="cmessage" placeholder="Message">
+            </div>
+            <!-- Submit Button -->
+            <div class="mt-5">
+              <button type="submit" name="submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Contact Image -->
+    <div class="contact_img-box">
+      <img src="img/contact1.png" alt="">
+    </div>
+  </section>
+  <!-- end contact section -->
+
+        
+   <!-- footer section start-->
+<section class="footer_section">
+  <div class="footer-container">
+     <!-- subscribe newsletter  -->
+     <div class="subscribe_container">
+      <h5>
+         Get our latest news!
+      </h5>
+      <div class="form_container">
+        <form action="">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">
+            Subscribe
+          </button>
+        </form>
+      </div>
+  </div> <!-- subscribe newsletter end  -->
+
+            <!-- social media container -->
+            <div class="social_container">
+              <!-- facebook link -->
+              <a href="https://www.facebook.com/LittleAbqari/" target="_blank">
+                <img src="img/sfb.png" alt="">
+              </a>
+               <!-- twitter link -->
+              <a href="https://twitter.com/littleabqari" target="_blank">
+                <img src="img/s-twt.png" alt="">
+              </a>
+               <!-- instagram link -->
+              <a href="https://www.instagram.com/littleabqari/" target="_blank">
+                <img src="img/sig.png" alt="">
+              </a>
+           </div> <!-- social media container end-->
+           
+</div>  <!-- footer container end -->
+
+<!-- copyright section-->
+   <footer></footer>
+   <p>&copy;2013 KaydeeLoka,LLC. All rights reserved.</p>
+  </footer>
+<!-- copyright section end-->
+
+<!-- footer section end-->
+
+   </body>
+</html>

@@ -1,0 +1,85 @@
+  /* register css*/
+* {
+    box-sizing: border-box;   /* ensure all padding and border include*/
+  }
+  
+    /* CSS for body*/
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    color: rgb(253, 200, 136);
+  }
+  
+  form {   /* CSS for form*/
+    max-width: 400px;
+    margin: 35px auto;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background:  rgb(173, 146, 247);
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+    /* CSS applied for the selected elements*/
+  input[type='text'],
+  input[type='email'],
+  input[type='phone'],
+  textarea,
+  select {
+    background: #fffb7f;
+    border: 1px;
+    margin-bottom: 25px;
+    box-shadow: 2px;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    height: auto;
+    font-size: 15px;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;/*create spacing*/
+    border: none;/* remove default border*/
+  }
+  
+  legend {
+    display: block; /*adjust display*/
+    margin-bottom: 8px;/*create spacing*/
+  }
+  
+  /*CSS for section*/
+  .section {
+    background-color: lightsteelblue;
+    color: white;
+    height: 29px;
+    display: inline-block;
+    width: 29px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 4px;
+    font-size: 0.7em;
+  }
+  
+  label {
+    display: block; /*adjust display*/
+    margin-bottom: 8px; /*create spacing*/
+  }
+  
+  /* responsive website for mobile*/
+  @media screen and (min-width: 480px) {
+    form {
+      max-width: 480px;
+    }
+  }
+  

@@ -1,0 +1,191 @@
+<!--About page -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Little Abqari Preschool </title>
+      <!-- Style CSS for header-->
+      <link rel="stylesheet" href="./css/hfer.css">
+      <!-- Style CSS for page -->
+      <link rel="stylesheet" href="./css/about.css">
+      <!-- Style CSS for responsive page -->
+      <link rel="stylesheet" href="./css/responsive.css">
+   </head>
+
+   <body>
+  
+  <!-- header  -->
+  <header>
+  <!-- top about section -->
+  <div class="top_about">
+  <!-- navbar area -->
+  <div class="navbar-area">
+    <!-- site-container -->
+    <div class="container">
+
+      <!-- navbar menu-->
+      <nav class="site-navbar">
+        <!-- site logo -->
+        <img class="logo" src="img/lap_logo.png"alt="">
+
+        <!-- site menu -->
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="registration.php">Register Now!</a></li>
+        </ul>
+        <!-- nav-toggler for mobile version only -->
+        <button class="nav-toggler">
+          <span></span>
+        </button>
+      </nav> <!-- navbar menu end-->
+    </div>  <!-- site-container end -->
+  </div><!-- navbar-area end -->
+</div>
+  <!-- Script JS for toggle-->
+  <script src="./js/toggle.js"></script>
+</header>
+<!-- header end -->
+
+  <!-- about section -->
+  <section class="about_section">
+    <div class="about_img-container">
+      <img src="img/about.JPG" alt="">
+    </div>
+    <div class="about-container container">
+          <div class="about_detail-box">
+            <h1>About Us</h1>
+            <div class="text">
+            <p>
+              Little Abqari Preschool: Nurturing Young Minds. <br>
+              Welcome to Little Abqari Preschool, <br>
+              where we believe in the power of early education <br>
+              and the boundless potential of young minds. <br>
+              Our preschool is dedicated to providing a nurturing and <br>
+              stimulating learning environment that lays a strong <br>
+              foundation for your child's future success.<br>
+              We understand the importance of early childhood development <br>
+              and strive to create a holistic approach to learning.<br> 
+              We offer a comprehensive curriculum that integrates play-based activities. 
+            </p>
+            </div>
+          </div>
+    
+        </div>
+  </section>
+
+  <!--gallery section-->
+  <section class="gallery_section">
+    <div class="title-gallery">
+      <h1>
+      ANNUAL EVENTS
+      </h1>
+    </div>
+    <div class="full-img" id="fullImgBox">
+      <img id="fullImg" src="">
+        <span class="exit"onclick="closefullImg()">X</span>
+        <span id="prev" class="prev">&lt;</span>
+        <span id="next" class="next">&gt;</span>
+      </div>
+    
+    <div class="img-gallery">
+      <div>
+        <img src="img/event_2.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      <div>
+        <img src="img/event_3.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div>
+        <img src="img/event_4.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div>
+        <img src="img/event_5.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+
+      <div> 
+        <img src="img/event_6.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div> 
+        <img src="img/event_7.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div> 
+        <img src="img/event_8.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+      </div>
+     
+
+      <div>
+        <img src="img/cls_2.jpg" onclick="openfullImg(this.src)">
+        <div class="desc">Add a description of the image here</div>
+     </div>
+      
+     <div> 
+      <img src="img/event_1.jpg" onclick="openfullImg(this.src)">
+      <div class="desc">Add a description of the image here</div>
+     </div>
+  </div> 
+    <!-- Script JS for toggle-->
+    <script src="./js/abtevent.js"></script>
+</section>
+    <!-- gallery section end -->
+    
+     
+  <!-- footer section start-->
+<section class="footer_section">
+  <div class="footer-container">
+     <!-- subscribe newsletter  -->
+     <div class="subscribe_container">
+      <h5>
+         Get our latest news!
+      </h5>
+      <div class="form_container">
+        <form action="">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">
+            Subscribe
+          </button>
+        </form>
+      </div>
+  </div> <!-- subscribe newsletter end  -->
+
+            <!-- social media container -->
+            <div class="social_container">
+              <!-- facebook link -->
+              <a href="https://www.facebook.com/LittleAbqari/" target="_blank">
+                <img src="img/sfb.png" alt="">
+              </a>
+               <!-- twitter link -->
+              <a href="https://twitter.com/littleabqari" target="_blank">
+                <img src="img/s-twt.png" alt="">
+              </a>
+               <!-- instagram link -->
+              <a href="https://www.instagram.com/littleabqari/" target="_blank">
+                <img src="img/sig.png" alt="">
+              </a>
+           </div> <!-- social media container end-->
+           
+</div>  <!-- footer container end -->
+
+<!-- copyright section-->
+   <footer></footer>
+   <p>&copy;2013 KaydeeLoka,LLC. All rights reserved.</p>
+  </footer>
+<!-- copyright section end-->
+
+<!-- footer section end-->
+
+   </body>
+</html>

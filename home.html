@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Abqari Playschool</title>
+  <!--header 
+        Style CSS for header-->
+  <link rel="stylesheet" href="./css/hfer.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<header>
+  <!-- top container section -->
+   <div class="top_container">
+     <!-- site-navbar start -->
+     <div class="navbar-area">
+       <div class="container">
+         <nav class="site-navbar">
+           <!-- site logo -->
+           <img class="logo" src="img/lap_logo.png" alt="">
+
+           <!-- site menu/nav -->
+           <ul>
+             <li><a href="home.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="gallery.html">Gallery</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="registration.php">Register Now!</a></li>
+           </ul>
+           <!-- nav-toggler for mobile version only -->
+           <button class="nav-toggler">
+             <span></span>
+           </button>
+         </nav>
+       </div>  <!-- container section -->
+     </div><!-- navbar-area end -->
+   </div>
+     <!-- Script JS for toggle-->
+     <script src="./js/toggle.js"></script>
+ </header>  <!-- header section end-->
+<body>
+
+
+ <!-- intro section -->
+  <section class="intro_section">
+    <div class="intro-container container">
+
+      <!-- intro details section -->
+      <div class="intro_detail-box">
+        <h1>
+          WELCOME TO 
+          LITTLE ABQARI 
+          PRESCHOOL
+        </h1>
+        <p> LUHUR . ANGGUN . PINTAR <br>
+        Tadika Little Abqari is an Islamic-centric preschool that established on 2013. 
+          They offered a dynamic classroom instruction with caring, 
+          qualified teachers and fun activities for your child.
+        </p>
+        <div class="intro_btn-continer">
+          <a href="about.html" class="intro_button">
+            Read More
+          </a>
+        </div>
+      </div> <!-- intro details section end -->
+
+      <!-- intro image section -->
+      <div class="intro_img-container">
+        <div> <!-- image -->
+          <img src="img/home.jpg" alt="" class="img-fluid">
+        </div>
+      </div> <!-- img section end -->
+    </div> <!-- intro details box end -->
+  </section><!-- intro section end -->
+
+
+<section class="video_section">
+<!--class for video-->
+<div class="video-container">
+  <video id="video-1" poster="img/vidlap.JPG" controls autoplay muted>
+  <source src="img/vidlap.webm" type="video/webm">
+  <source src="img/vidlap.mp4" type="video/mp4">
+  It looks like your browser does not support <code>video</code>.
+  </video>
+  </div>
+</section>
+
+
+<!--gallery section-->
+  <section class="gallery_section">
+<div class="title-gallery">
+  <h1>
+  FUN ACTIVITIES
+  </h1>
+</div>
+<div class="full-img" id="fullImgBox">
+  <img src="" id="fullImg">
+  <span class="exit"onclick="closefullImg()">X</span>
+  <span id="prev" class="prev">&lt;</span>
+  <span id="next" class="next">&gt;</span>
+</div>
+
+<div class="img-gallery">
+  <img src="img/cls_1.jpg" onclick="openfullImg(this.src)">
+  <img src="img/cls_2.jpg" onclick="openfullImg(this.src)">
+  <img src="img/cls_3.jpg" onclick="openfullImg(this.src)">
+  <img src="img/cls_4.jpg" onclick="openfullImg(this.src)">
+  <img src="img/cls_6.jpg" onclick="openfullImg(this.src)">
+  <img src="img/cls_7.jpg" onclick="openfullImg(this.src)">
+</div>
+
+<!-- Script JS for toggle-->
+<script src="./js/homegal.js"></script>
+  <!-- gallery section end -->
+
+
+
+ <!-- footer section start-->
+ <section class="footer_section">
+  <div class="footer-container">
+     <!-- subscribe newsletter  -->
+     <div class="subscribe_container">
+      <h5>
+         Get our latest news!
+      </h5>
+      <div class="form_container">
+        <form action="">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">
+            Subscribe
+          </button>
+        </form>
+      </div>
+  </div> <!-- subscribe newsletter end  -->
+
+            <!-- social media container -->
+            <div class="social_container">
+              <!-- facebook link -->
+              <a href="https://www.facebook.com/LittleAbqari/" target="_blank">
+                <img src="img/sfb.png" alt="">
+              </a>
+               <!-- twitter link -->
+              <a href="https://twitter.com/littleabqari" target="_blank">
+                <img src="img/s-twt.png" alt="">
+              </a>
+               <!-- instagram link -->
+              <a href="https://www.instagram.com/littleabqari/" target="_blank">
+                <img src="img/sig.png" alt="">
+              </a>
+           </div> <!-- social media container end-->
+           
+</div>  <!-- footer container end -->
+
+<!-- copyright section-->
+   <footer></footer>
+   <p>&copy;2013 KaydeeLoka,LLC. All rights reserved.</p>
+  </footer>
+<!-- copyright section end-->
+
+<!-- footer section end-->
+
+</body>
+</html>
