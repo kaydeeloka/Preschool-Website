@@ -7,13 +7,11 @@
       <title> Little Abqari Preschool </title>
       <!-- Style CSS for header-->
       <link rel="stylesheet" href="./css/hfer.css">
-      <!-- Style CSS for every page -->
+      <!-- Style CSS for gallery page -->
       <link rel="stylesheet" href="./css/gallery.css">
       <!-- Style CSS for responsive page -->
       <link rel="stylesheet" href="./css/responsive.css">
    </head>
-
-   <body>
   
   <!-- header  -->
   <header>
@@ -53,7 +51,8 @@
 <!-- header end -->
 
 
-    <!-- Gallery Start -->
+<body>
+    <!-- Gallery Section -->
  <section class="gallery_section" id="gallerySection" >
 
       <div class="image-gallery">
@@ -61,8 +60,11 @@
             <h2>Abqarians Gallery</h2>
             <p>I am Little Abqari Edition</p>
           </div> 
-
+        
+        <!-- gallery container for slides and thumbnail  -->
           <div class="gallery-container">
+
+          <!-- slides with slides number-->
             <div class="slides">
               <div class="numbertext">1 / 6</div>
               <img src="img/gal_1.jpg" style="width:100%">
@@ -93,11 +95,14 @@
               <img src="img/gal_6.jpg" style="width:100%">
             </div>
           
+            <!-- caption container for slide title -->
             <div class="caption-container">
               <p id="caption"></p>
             </div>
           
+            <!-- row for the thumbnail  -->
             <div class="row">
+              <!-- thumbnail pictures with title -->
               <div class="pict">
                 <img class="demo cursor" src="img/gal_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Dalgona Candy">
               </div>
@@ -118,14 +123,15 @@
               </div>
             </div>
           </div>
-
-           <!-- Arrow Buttons -->
+          
+           <!-- Arrow Buttons for slides -->
            <a class="prev" onclick="plusSlides(-1)">❮</a>
            <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
+      
+        <!-- JS to display the slide with corresponding number -->
       <script src="./js/gallery.js"></script>
-    <!-- Gallery End -->
-    </section>
+    </section> <!-- Gallery End -->
 
 
      <!-- footer section start-->
