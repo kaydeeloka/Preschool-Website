@@ -12,16 +12,19 @@
     z-index: -1;
   }
 
+  /*CSS for about section*/
   .about_section {
     display: flex;
     align-items: center;
   }
   
+
   .about-container {
     flex: 1; /* set the form on the left*/
     padding-left: 20px; /* Adjust the spacing between the form and image */
   }
   
+  /*CSS for detail box*/
   .about_detail-box {
     width: 100%;
     margin-top: 40px;
@@ -53,11 +56,14 @@
   .about_detail-box p::first-letter {
     font-size: 24px;
     font-weight: bold;
-  }
+  } /*CSS for detail box end*/
   
+  /*CSS for text*/
   .text{
     padding-right: 50px;
   }
+
+  /*CSS for image container*/
   .about_img-container {
       flex: 1; /* set the form on the right */
       flex-shrink: 0;
@@ -68,11 +74,11 @@
   .about_img-container img {
       width: 100%; /* set image size */
       height: auto; /* Maintain aspect ratio */
-    }
+    } /*CSS for image container end*/
     /* end about section */
   
   /* gallery section */
-  
+  /*CSS for full image gallery container*/
   .full-img{
     width:100%;
     height:100vh;
@@ -92,8 +98,9 @@
   .full-img img{
     width:90%; 
     max-width: 700px;
-  }
+  } /*CSS for gallery container end*/
   
+  /*CSS for exit button*/
   .full-img .exit{
     position: absolute;
     top:5%;
@@ -110,6 +117,7 @@
     cursor: pointer;
   }
   
+  /*CSS for prev and next button*/
   .full-img .prev,
   .full-img .next {
     display: block;
@@ -132,6 +140,7 @@
     right: 20px;
   }
   
+  /*CSS for title*/
   .title-gallery {
     padding-top: 100px;
     text-align: center;
@@ -145,6 +154,7 @@
     padding-bottom: 30px;
   }
   
+  /*CSS for image*/
   .img-gallery{
     width: 80%;
     margin: 10px auto 50px;
@@ -158,9 +168,10 @@
     cursor: pointer;
   }
   
+  /*CSS for image hover*/
   .img-gallery img:hover{
     transform: scale(1.0) rotate(15deg);
     border-radius:20px;
     box-shadow: 0 32px 60px rgb(173, 146, 247,0.7);
   }
-    
+    /* gallery section  end*/
