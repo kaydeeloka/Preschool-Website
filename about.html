@@ -52,10 +52,14 @@
 
   <!-- about section -->
   <section class="about_section">
+    <!--about image container-->
     <div class="about_img-container">
       <img src="img/about.JPG" alt="">
-    </div>
+    </div> <!--about image container end-->
+
+    <!--about container-->
     <div class="about-container container">
+      <!--about detail box-->
           <div class="about_detail-box">
             <h1>About Us</h1>
             <div class="text">
@@ -72,10 +76,10 @@
               We offer a comprehensive curriculum that integrates play-based activities. 
             </p>
             </div>
-          </div>
+          </div> <!--about detail box end-->
     
-        </div>
-  </section>
+        </div><!--about container end-->
+  </section><!--about section end-->
 
   <!--gallery section-->
   <section class="gallery_section">
@@ -84,14 +88,19 @@
       ANNUAL EVENTS
       </h1>
     </div>
+    <!--open the full-image size when the image is click-->
     <div class="full-img" id="fullImgBox">
       <img id="fullImg" src="">
+      <!--close the img if click x-->
         <span class="exit"onclick="closefullImg()">X</span>
+         <!--go to previous and next image-->
         <span id="prev" class="prev">&lt;</span>
         <span id="next" class="next">&gt;</span>
       </div>
-    
+
+    <!--images gallery-->
     <div class="img-gallery">
+      <!--images collection with description-->
       <div>
         <img src="img/event_2.jpg" onclick="openfullImg(this.src)">
         <div class="desc">Add a description of the image here</div>
@@ -126,7 +135,6 @@
         <div class="desc">Add a description of the image here</div>
       </div>
      
-
       <div>
         <img src="img/cls_2.jpg" onclick="openfullImg(this.src)">
         <div class="desc">Add a description of the image here</div>
@@ -136,9 +144,11 @@
       <img src="img/event_1.jpg" onclick="openfullImg(this.src)">
       <div class="desc">Add a description of the image here</div>
      </div>
-  </div> 
-    <!-- Script JS for toggle-->
-    <script src="./js/abtevent.js"></script>
+  </div> <!--image gallery end-->
+
+    <!-- Script JS for the full-image size functionallity 
+and for the image to go to the previous and next page if the button is click-->
+ <script src="./js/abtevent.js"></script>
 </section>
     <!-- gallery section end -->
     
