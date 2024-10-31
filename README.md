@@ -1,4 +1,4 @@
-# FinalProject23
+# PHPPreschoolWebsite23
 Final Project creating a Preschool Website.
 This project consist of html, javascript, css and php.
 The php page was for registration and contact page.
