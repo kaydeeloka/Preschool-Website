@@ -1,6 +1,4 @@
-# PreschoolWebsite23
-Final Project creating a Preschool Website.
-This project consist of html, javascript, css and php.
-The php page was for registration and contact page.
-You can have accesed to all page since the header are consistent and link to all pages.
-The config.php is a databse details declaration.
+# PreschoolWebsite23 – Final Project Web Programming
+This website was developed as a final project to support my mother's kindergarten. It is built using HTML, CSS, JavaScript, and PHP, with dynamic pages for registration and contact handled through PHP and a config.php file containing database connection details. The structure features a consistent header linked across all pages for seamless navigation.
+
+This prototype served as the foundation for the live website I later created at www.littleabqari.com.my, using Canva as the visual design platform and the initial project as a functional and structural guideline.
